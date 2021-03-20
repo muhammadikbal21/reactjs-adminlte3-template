@@ -1,10 +1,11 @@
-import React from 'react'
-import Content from './components/Content'
-import Footer from './components/Footer'
+import logo from './logo.svg';
+import './App.css';
 import Header from './components/Header'
 import Menu from './components/Menu'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
-export default function App() {
+function App() {
   return (
     <div>
       <Header />
@@ -12,5 +13,7 @@ export default function App() {
       <Content />
       <Footer />
     </div>
-  )
+  );
 }
+
+export default App;
